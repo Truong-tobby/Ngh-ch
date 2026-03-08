@@ -1423,10 +1423,7 @@ body::before {
 .sb-share-brand {
     font-size: 17px;
     font-weight: 800;
-    background: linear-gradient(135deg, #f5c518, #34c759);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: #000;
     letter-spacing: -0.3px;
 }
 
