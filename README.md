@@ -12,7 +12,7 @@ A faithful recreation of the iPhone 16 Pro Max home screen with the **StrongBond
   - Share: Instagrammable friendship streak card
 
 ## Live Demo
-👉 [View Live](https://YOUR_USERNAME.github.io/iphone-strongbond/)
+👉 [View Live](https://truong-tobby.github.io/Ngh-ch/)
 
 ## Tech Stack
 HTML + CSS + JavaScript (no frameworks)
