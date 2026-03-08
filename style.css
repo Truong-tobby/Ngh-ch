@@ -706,7 +706,7 @@ body::before {
 }
 
 /* ===== APP OVERLAY ===== */
-.sb-app-overlay {
+.sb-app-overlay  {
     position: absolute;
     top: 0;
     left: 0;
@@ -721,7 +721,7 @@ body::before {
     flex-direction: column;
 }
 
-.sb-app-overlay.visible {
+.sb-app-overlay.visible  {
     display: flex;
     opacity: 1;
     pointer-events: all;
@@ -741,30 +741,30 @@ body::before {
 }
 
 /* ===== SB STATUS BAR ===== */
-.sb-status-bar {
+.sb-status-bar  {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 14px 28px 6px;
     color: #000;
-    font-size: 16px;
+    font-size: 24px;
     font-weight: 700;
     flex-shrink: 0;
 }
 
-.sb-status-bar .right-icons {
+.sb-status-bar .right-icons  {
     display: flex;
     align-items: center;
     gap: 5px;
 }
 
-.sb-status-bar .right-icons svg {
+.sb-status-bar .right-icons svg  {
     height: 12px;
     width: auto;
 }
 
 /* ===== NOTIFICATION BANNER ===== */
-.sb-notification {
+.sb-notification  {
     margin: 4px 12px 8px;
     background: rgba(255, 255, 255, 0.6);
     backdrop-filter: blur(30px);
@@ -780,11 +780,11 @@ body::before {
     flex-shrink: 0;
 }
 
-.sb-notification:hover {
+.sb-notification:hover  {
     background: rgba(255, 255, 255, 0.8);
 }
 
-.sb-notification:active {
+.sb-notification:active  {
     transform: scale(0.97);
 }
 
@@ -800,7 +800,7 @@ body::before {
     }
 }
 
-.sb-notif-icon {
+.sb-notif-icon  {
     width: 36px;
     height: 36px;
     border-radius: 8px;
@@ -808,13 +808,13 @@ body::before {
     overflow: hidden;
 }
 
-.sb-notif-content {
+.sb-notif-content  {
     flex: 1;
     min-width: 0;
 }
 
-.sb-notif-app {
-    font-size: 11px;
+.sb-notif-app  {
+    font-size: 17px;
     font-weight: 800;
     color: rgba(0, 0, 0, 0.7);
     letter-spacing: 1px;
@@ -822,35 +822,35 @@ body::before {
     margin-bottom: 2px;
 }
 
-.sb-notif-title {
-    font-size: 13px;
+.sb-notif-title  {
+    font-size: 20px;
     font-weight: 700;
     color: #000;
     line-height: 1.3;
 }
 
-.sb-notif-body {
-    font-size: 12px;
+.sb-notif-body  {
+    font-size: 18px;
     color: rgba(0, 0, 0, 0.85);
     line-height: 1.3;
     margin-top: 2px;
 }
 
-.sb-notif-time {
-    font-size: 11px;
+.sb-notif-time  {
+    font-size: 17px;
     color: rgba(0, 0, 0, 0.6);
     flex-shrink: 0;
 }
 
 /* ===== TAB NAVIGATION ===== */
-.sb-tabs {
+.sb-tabs  {
     display: flex;
     gap: 4px;
     padding: 0 12px 8px;
     flex-shrink: 0;
 }
 
-.sb-tab {
+.sb-tab  {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -858,41 +858,41 @@ body::before {
     gap: 3px;
     padding: 8px 4px;
     color: rgba(0, 0, 0, 0.65);
-    font-size: 11px;
+    font-size: 17px;
     font-weight: 700;
     cursor: pointer;
     transition: all 0.25s ease;
     font-family: inherit;
 }
 
-.sb-tab:hover {
+.sb-tab:hover  {
     background: rgba(255, 255, 255, 0.4);
 }
 
-.sb-tab.active {
+.sb-tab.active  {
     background: white;
     border-color: white;
     color: #000;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
-.sb-tab svg {
+.sb-tab svg  {
     opacity: 0.7;
 }
 
-.sb-tab.active svg {
+.sb-tab.active svg  {
     opacity: 1;
     color: #000;
 }
 
 /* ===== SCREEN CONTAINER ===== */
-.sb-screens {
+.sb-screens  {
     flex: 1;
     position: relative;
     overflow: hidden;
 }
 
-.sb-screen {
+.sb-screen  {
     position: absolute;
     top: 0;
     left: 0;
@@ -904,13 +904,13 @@ body::before {
     transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
-.sb-screen.active {
+.sb-screen.active  {
     opacity: 1;
     pointer-events: all;
     transform: translateX(0);
 }
 
-.sb-screen-scroll {
+.sb-screen-scroll  {
     height: 100%;
     overflow-y: auto;
     overflow-x: hidden;
@@ -918,41 +918,41 @@ body::before {
     -webkit-overflow-scrolling: touch;
 }
 
-.sb-screen-scroll::-webkit-scrollbar {
+.sb-screen-scroll::-webkit-scrollbar  {
     width: 0;
 }
 
 /* ===== HEADER ===== */
-.sb-header {
+.sb-header  {
     padding: 4px 0 12px;
 }
 
-.sb-title {
-    font-size: 24px;
+.sb-title  {
+    font-size: 36px;
     font-weight: 800;
     color: #000;
     letter-spacing: -0.5px;
 }
 
-.sb-title-accent {
+.sb-title-accent  {
     color: #000;
 }
 
-.sb-subtitle {
-    font-size: 14px;
+.sb-subtitle  {
+    font-size: 21px;
     color: rgba(0, 0, 0, 0.75);
     margin-top: 2px;
     font-weight: 500;
 }
 
 /* ===== PLAYBOOK CARDS ===== */
-.sb-cards {
+.sb-cards  {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.sb-card {
+.sb-card  {
     display: flex;
     align-items: center;
     gap: 12px;
@@ -967,7 +967,7 @@ body::before {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
 }
 
-.sb-card::before {
+.sb-card::before  {
     content: '';
     position: absolute;
     top: 0;
@@ -978,16 +978,16 @@ body::before {
     transition: opacity 0.2s;
 }
 
-.sb-card:hover::before {
+.sb-card:hover::before  {
     opacity: 1;
 }
 
-.sb-card:active {
+.sb-card:active  {
     transform: scale(0.97);
 }
 
-.sb-card-icon {
-    font-size: 28px;
+.sb-card-icon  {
+    font-size: 42px;
     width: 44px;
     height: 44px;
     display: flex;
@@ -998,28 +998,28 @@ body::before {
     flex-shrink: 0;
 }
 
-.sb-card-info h3 {
-    font-size: 14px;
+.sb-card-info h3  {
+    font-size: 21px;
     font-weight: 700;
     color: #1a1a1a;
     margin-bottom: 2px;
 }
 
-.sb-card-info p {
-    font-size: 11px;
+.sb-card-info p  {
+    font-size: 17px;
     color: rgba(0, 0, 0, 0.5);
     font-weight: 500;
 }
 
-.sb-card-arrow {
-    font-size: 22px;
+.sb-card-arrow  {
+    font-size: 33px;
     color: rgba(0, 0, 0, 0.5);
     margin-left: auto;
     font-weight: 300;
 }
 
 /* ===== FRIENDSHIP STREAK BAR ===== */
-.sb-streak-bar {
+.sb-streak-bar  {
     display: flex;
     align-items: center;
     gap: 12px;
@@ -1031,29 +1031,29 @@ body::before {
     border-radius: 16px;
 }
 
-.sb-streak-flame {
-    font-size: 28px;
+.sb-streak-flame  {
+    font-size: 42px;
 }
 
-.sb-streak-info {
+.sb-streak-info  {
     flex: 1;
 }
 
-.sb-streak-label {
-    font-size: 11px;
+.sb-streak-label  {
+    font-size: 17px;
     color: rgba(0, 0, 0, 0.5);
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.5px;
 }
 
-.sb-streak-count {
-    font-size: 20px;
+.sb-streak-count  {
+    font-size: 30px;
     font-weight: 800;
     color: #000;
 }
 
-.sb-streak-progress {
+.sb-streak-progress  {
     width: 60px;
     height: 6px;
     background: rgba(0, 0, 0, 0.1);
@@ -1061,7 +1061,7 @@ body::before {
     overflow: hidden;
 }
 
-.sb-streak-fill {
+.sb-streak-fill  {
     height: 100%;
     background: linear-gradient(90deg, #f5c518, #34c759);
     border-radius: 3px;
@@ -1075,13 +1075,13 @@ body::before {
 }
 
 /* ===== SCREEN 2: STREAK REWARDS ===== */
-.sb-reward-track {
+.sb-reward-track  {
     display: flex;
     flex-direction: column;
     gap: 0;
 }
 
-.sb-reward-item {
+.sb-reward-item  {
     display: flex;
     align-items: center;
     gap: 12px;
@@ -1090,29 +1090,29 @@ body::before {
     transition: transform 0.15s;
 }
 
-.sb-reward-item:active {
+.sb-reward-item:active  {
     transform: scale(0.98);
 }
 
-.sb-reward-item.unlocked {
+.sb-reward-item.unlocked  {
     background: rgba(52, 199, 89, 0.1);
     border: 1px solid rgba(52, 199, 89, 0.2);
 }
 
-.sb-reward-item.current {
+.sb-reward-item.current  {
     background: white;
     border: 1px solid rgba(0, 0, 0, 0.1);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
-.sb-reward-item.locked {
+.sb-reward-item.locked  {
     background: rgba(255, 255, 255, 0.4);
     border: 1px solid transparent;
     opacity: 0.6;
 }
 
-.sb-reward-badge {
-    font-size: 24px;
+.sb-reward-badge  {
+    font-size: 36px;
     width: 40px;
     height: 40px;
     display: flex;
@@ -1121,24 +1121,24 @@ body::before {
     flex-shrink: 0;
 }
 
-.sb-reward-info {
+.sb-reward-info  {
     flex: 1;
 }
 
-.sb-reward-info h4 {
-    font-size: 15px;
+.sb-reward-info h4  {
+    font-size: 23px;
     font-weight: 800;
     color: #000;
 }
 
-.sb-reward-info p {
-    font-size: 11px;
+.sb-reward-info p  {
+    font-size: 17px;
     color: rgba(0, 0, 0, 0.5);
     margin-top: 1px;
 }
 
-.sb-reward-tag {
-    font-size: 10px;
+.sb-reward-tag  {
+    font-size: 15px;
     font-weight: 800;
     padding: 4px 8px;
     border-radius: 8px;
@@ -1147,22 +1147,22 @@ body::before {
     flex-shrink: 0;
 }
 
-.sb-reward-tag.unlocked {
+.sb-reward-tag.unlocked  {
     background: rgba(52, 199, 89, 0.2);
     color: #34c759;
 }
 
-.sb-reward-tag.current {
+.sb-reward-tag.current  {
     background: rgba(245, 197, 24, 0.2);
     color: #f5c518;
 }
 
-.sb-reward-tag.locked {
+.sb-reward-tag.locked  {
     background: rgba(0, 0, 0, 0.08);
     color: rgba(0, 0, 0, 0.6);
 }
 
-.sb-reward-connector {
+.sb-reward-connector  {
     width: 2px;
     height: 16px;
     background: linear-gradient(180deg, #f5c518, #34c759);
@@ -1170,12 +1170,12 @@ body::before {
     border-radius: 1px;
 }
 
-.sb-reward-connector.dim {
+.sb-reward-connector.dim  {
     background: rgba(0, 0, 0, 0.1);
 }
 
 /* Progress */
-.sb-progress-section {
+.sb-progress-section  {
     margin-top: 16px;
     padding: 14px 16px;
     background: white;
@@ -1184,21 +1184,21 @@ body::before {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
 }
 
-.sb-progress-header {
+.sb-progress-header  {
     display: flex;
     justify-content: space-between;
-    font-size: 13px;
+    font-size: 20px;
     font-weight: 700;
     color: rgba(0, 0, 0, 0.8);
     margin-bottom: 8px;
 }
 
-.sb-progress-pct {
+.sb-progress-pct  {
     color: #f5c518;
     font-weight: 800;
 }
 
-.sb-progress-bar {
+.sb-progress-bar  {
     width: 100%;
     height: 8px;
     background: rgba(0, 0, 0, 0.05);
@@ -1206,41 +1206,41 @@ body::before {
     overflow: hidden;
 }
 
-.sb-progress-fill {
+.sb-progress-fill  {
     height: 100%;
     background: linear-gradient(90deg, #f5c518, #34c759);
     border-radius: 4px;
     animation: fillGrow 1.2s cubic-bezier(0.4, 0, 0.2, 1) 0.3s backwards;
 }
 
-.sb-progress-labels {
+.sb-progress-labels  {
     display: flex;
     justify-content: space-between;
-    font-size: 10px;
+    font-size: 15px;
     color: rgba(0, 0, 0, 0.4);
     margin-top: 6px;
     font-weight: 600;
 }
 
 /* Nearby Stores */
-.sb-nearby-section {
+.sb-nearby-section  {
     margin-top: 16px;
 }
 
-.sb-section-title {
-    font-size: 14px;
+.sb-section-title  {
+    font-size: 21px;
     font-weight: 700;
     color: #1a1a1a;
     margin-bottom: 10px;
 }
 
-.sb-store-list {
+.sb-store-list  {
     display: flex;
     flex-direction: column;
     gap: 6px;
 }
 
-.sb-store {
+.sb-store  {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -1251,32 +1251,32 @@ body::before {
     transition: background 0.2s;
 }
 
-.sb-store:hover {
+.sb-store:hover  {
     background: rgba(255, 255, 255, 0.8);
 }
 
-.sb-store-icon {
-    font-size: 20px;
+.sb-store-icon  {
+    font-size: 30px;
 }
 
-.sb-store-info {
+.sb-store-info  {
     display: flex;
     flex-direction: column;
 }
 
-.sb-store-name {
-    font-size: 12px;
+.sb-store-name  {
+    font-size: 18px;
     font-weight: 600;
     color: #1a1a1a;
 }
 
-.sb-store-dist {
-    font-size: 10px;
+.sb-store-dist  {
+    font-size: 15px;
     color: rgba(0, 0, 0, 0.4);
 }
 
 /* Drink Recommendation */
-.sb-drink-rec {
+.sb-drink-rec  {
     margin-top: 16px;
     padding: 16px;
     background: white;
@@ -1285,45 +1285,45 @@ body::before {
     border-radius: 16px;
 }
 
-.sb-drink-header {
+.sb-drink-header  {
     display: flex;
     gap: 10px;
     align-items: center;
     margin-bottom: 8px;
 }
 
-.sb-drink-emoji {
-    font-size: 28px;
+.sb-drink-emoji  {
+    font-size: 42px;
 }
 
-.sb-drink-header h3 {
-    font-size: 11px;
+.sb-drink-header h3  {
+    font-size: 17px;
     color: rgba(0, 0, 0, 0.5);
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.5px;
 }
 
-.sb-drink-label {
-    font-size: 15px;
+.sb-drink-label  {
+    font-size: 23px;
     font-weight: 700;
     color: #d1752b;
     margin-top: 1px;
 }
 
-.sb-drink-desc {
-    font-size: 13px;
+.sb-drink-desc  {
+    font-size: 20px;
     color: rgba(0, 0, 0, 0.8);
     line-height: 1.5;
 }
 
 /* ===== SCREEN 3: SHARE CARD ===== */
-.sb-share-card {
+.sb-share-card  {
     perspective: 1000px;
     margin: 4px 0 16px;
 }
 
-.sb-share-card-inner {
+.sb-share-card-inner  {
     background: white;
     border-radius: 20px;
     overflow: hidden;
@@ -1333,7 +1333,7 @@ body::before {
     position: relative;
 }
 
-.sb-share-card-inner::before {
+.sb-share-card-inner::before  {
     content: '';
     position: absolute;
     top: -50%;
@@ -1355,11 +1355,11 @@ body::before {
     }
 }
 
-.sb-share-badge {
+.sb-share-badge  {
     display: inline-block;
     background: linear-gradient(135deg, #f5c518, #ff9500);
     color: #000;
-    font-size: 12px;
+    font-size: 18px;
     font-weight: 800;
     padding: 5px 12px;
     border-radius: 20px;
@@ -1369,7 +1369,7 @@ body::before {
     z-index: 1;
 }
 
-.sb-share-photo {
+.sb-share-photo  {
     width: 100%;
     height: 180px;
     border-radius: 14px;
@@ -1379,14 +1379,14 @@ body::before {
     z-index: 1;
 }
 
-.sb-share-photo img {
+.sb-share-photo img  {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.sb-share-caption {
-    font-size: 15px;
+.sb-share-caption  {
+    font-size: 23px;
     font-weight: 700;
     color: #000;
     font-style: italic;
@@ -1395,7 +1395,7 @@ body::before {
     z-index: 1;
 }
 
-.sb-share-meta {
+.sb-share-meta  {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1404,24 +1404,24 @@ body::before {
     z-index: 1;
 }
 
-.sb-share-streak-badge {
+.sb-share-streak-badge  {
     display: flex;
     align-items: center;
     gap: 6px;
     background: #fdf2e9;
     padding: 5px 10px;
     border-radius: 10px;
-    font-size: 11px;
+    font-size: 17px;
     font-weight: 700;
     color: #bfa15f;
 }
 
-.sb-streak-icon {
-    font-size: 14px;
+.sb-streak-icon  {
+    font-size: 21px;
 }
 
-.sb-share-brand {
-    font-size: 14px;
+.sb-share-brand  {
+    font-size: 21px;
     font-weight: 800;
     background: linear-gradient(135deg, #f5c518, #34c759);
     -webkit-background-clip: text;
@@ -1430,14 +1430,14 @@ body::before {
     letter-spacing: -0.3px;
 }
 
-.sb-share-members {
+.sb-share-members  {
     display: flex;
     gap: 6px;
     position: relative;
     z-index: 1;
 }
 
-.sb-member {
+.sb-member  {
     width: 32px;
     height: 32px;
     border-radius: 50%;
@@ -1446,19 +1446,19 @@ body::before {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 13px;
+    font-size: 20px;
     font-weight: 700;
     color: white;
 }
 
 /* Share Buttons */
-.sb-share-actions {
+.sb-share-actions  {
     display: flex;
     gap: 8px;
     margin-bottom: 12px;
 }
 
-.sb-share-btn {
+.sb-share-btn  {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -1469,41 +1469,41 @@ body::before {
     border: 1px solid rgba(0, 0, 0, 0.08);
     background: white;
     color: #1a1a1a;
-    font-size: 10px;
+    font-size: 15px;
     font-weight: 600;
     cursor: pointer;
     transition: transform 0.15s, background 0.2s;
     font-family: inherit;
 }
 
-.sb-share-btn:hover {
+.sb-share-btn:hover  {
     background: rgba(255, 255, 255, 0.8);
 }
 
-.sb-share-btn:active {
+.sb-share-btn:active  {
     transform: scale(0.95);
 }
 
-.sb-share-btn-icon {
-    font-size: 22px;
+.sb-share-btn-icon  {
+    font-size: 33px;
 }
 
-.sb-share-ig {
+.sb-share-ig  {
     background: rgba(225, 48, 108, 0.05);
     border-color: rgba(225, 48, 108, 0.2);
 }
 
-.sb-share-tiktok {
+.sb-share-tiktok  {
     background: rgba(0, 0, 0, 0.05);
     border-color: rgba(255, 255, 255, 0.1);
 }
 
-.sb-share-threads {
+.sb-share-threads  {
     background: rgba(0, 0, 0, 0.03);
     border-color: rgba(255, 255, 255, 0.1);
 }
 
-.sb-download-btn {
+.sb-download-btn  {
     width: 100%;
     display: flex;
     align-items: center;
@@ -1514,30 +1514,30 @@ body::before {
     border: none;
     border-radius: 14px;
     color: white;
-    font-size: 14px;
+    font-size: 21px;
     font-weight: 700;
     cursor: pointer;
     transition: transform 0.15s, opacity 0.2s;
     font-family: inherit;
 }
 
-.sb-download-btn:active {
+.sb-download-btn:active  {
     transform: scale(0.97);
 }
 
-.sb-download-btn svg {
+.sb-download-btn svg  {
     fill: white !important;
 }
 
 /* ===== BOTTOM BAR ===== */
-.sb-bottom-bar {
+.sb-bottom-bar  {
     display: flex;
     justify-content: center;
     padding: 8px 0 4px;
     flex-shrink: 0;
 }
 
-.sb-close-btn {
+.sb-close-btn  {
     width: 36px;
     height: 36px;
     border-radius: 50%;
@@ -1550,46 +1550,46 @@ body::before {
     transition: background 0.2s, transform 0.15s;
 }
 
-.sb-close-btn:hover {
+.sb-close-btn:hover  {
     background: rgba(255, 255, 255, 0.9);
 }
 
-.sb-close-btn:active {
+.sb-close-btn:active  {
     transform: scale(0.9);
 }
 
 /* ===== SB CARD ANIMATIONS ===== */
 .sb-screen.active .sb-card,
 .sb-screen.active .sb-reward-item,
-.sb-screen.active .sb-share-card {
+.sb-screen.active .sb-share-card  {
     animation: cardSlideIn 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) backwards;
 }
 
-.sb-screen.active .sb-card:nth-child(1) {
+.sb-screen.active .sb-card:nth-child(1)  {
     animation-delay: 0.05s;
 }
 
-.sb-screen.active .sb-card:nth-child(2) {
+.sb-screen.active .sb-card:nth-child(2)  {
     animation-delay: 0.1s;
 }
 
-.sb-screen.active .sb-card:nth-child(3) {
+.sb-screen.active .sb-card:nth-child(3)  {
     animation-delay: 0.15s;
 }
 
-.sb-screen.active .sb-card:nth-child(4) {
+.sb-screen.active .sb-card:nth-child(4)  {
     animation-delay: 0.2s;
 }
 
-.sb-screen.active .sb-reward-item:nth-child(1) {
+.sb-screen.active .sb-reward-item:nth-child(1)  {
     animation-delay: 0.05s;
 }
 
-.sb-screen.active .sb-reward-item:nth-child(3) {
+.sb-screen.active .sb-reward-item:nth-child(3)  {
     animation-delay: 0.1s;
 }
 
-.sb-screen.active .sb-reward-item:nth-child(5) {
+.sb-screen.active .sb-reward-item:nth-child(5)  {
     animation-delay: 0.15s;
 }
 
